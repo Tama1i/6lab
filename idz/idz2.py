@@ -6,10 +6,9 @@ import re
 
 if __name__ == '__main__':
     s = input("Напечатайте предложение: ")
-    i = 0 
 
-   b = s.replace("чя", "ча")
-   a = b.replace("щя", "ща")
-   print(a)
+    b = s.replace("чя", "ча")
+    a = b.replace("щя", "ща")
+    print(a)
 
    
