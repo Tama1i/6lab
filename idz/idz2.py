@@ -6,12 +6,10 @@ import re
 
 if __name__ == '__main__':
     s = input("Напечатайте предложение: ")
-    a = input("введите букву ")
-    i = 0
+    i = 0 
 
-    while s[i] != ".":
-        if s[i] == "и":
-            c = i
-        i += 1
-    o = s[:c] + a + s[c:]
-    print(o)
+   b = s.replace("чя", "ча")
+   a = b.replace("щя", "ща")
+   print(a)
+
+   
