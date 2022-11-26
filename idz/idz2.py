@@ -9,6 +9,7 @@ if __name__ == '__main__':
 
     b = s.replace("чя", "ча")
     a = b.replace("щя", "ща")
+    
     print(a)
 
    

@@ -14,5 +14,6 @@ if __name__ == '__main__':
            c = i
        i += 1
    o = s[:c] + a + s[c:]
+   
    print(o)
         
